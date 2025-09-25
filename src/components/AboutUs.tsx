@@ -91,26 +91,32 @@ const AboutUs = () => {
   }
 
   return (
-    <main className="w-full">
-      {/* Hero Section */}
-      <section className="relative w-full h-[50vh] sm:h-[60vh] bg-gray-100 flex items-center justify-center">
-        <img
-          src="https://i.pinimg.com/736x/2e/35/16/2e3516d94e1d6e0cfa5dd4c6425c549d.jpg"
-          alt="Ali Motors Showroom"
-          className="absolute w-full h-full object-cover"
-        />
-        <div className="relative z-10 text-center px-4 sm:px-6">
-          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white drop-shadow-lg">
+    <section className="relative w-full bg-white">
+      {/* Hero */}
+      <div
+        className="relative w-full flex flex-col items-center justify-center"
+        style={{
+          minHeight: '60vh',
+          paddingTop: '100px',
+          paddingBottom: '40px',
+          backgroundImage: "url('https://i.pinimg.com/736x/2e/35/16/2e3516d94e1d6e0cfa5dd4c6425c549d.jpg')",
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          backgroundRepeat: 'no-repeat'
+        }}
+      >
+        <div className="relative z-10 text-center px-4 max-w-3xl">
+          <h1 className="text-4xl sm:text-5xl font-bold text-white drop-shadow-lg">
             About Ali Motors
           </h1>
-          <p className="mt-4 text-md sm:text-lg md:text-xl text-white drop-shadow-md">
+          <p className="mt-4 text-lg sm:text-xl text-white drop-shadow-md">
             Driven by Passion, Powered by Excellence
           </p>
         </div>
-      </section>
+      </div>
 
       {/* Mission & Slider */}
-      <section className="py-12 px-4 sm:px-6 md:px-12 bg-white">
+      <div className="py-12 px-4 sm:px-6 md:px-12">
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           <motion.div
             initial={{ opacity: 0, x: -100 }}
@@ -140,17 +146,17 @@ const AboutUs = () => {
                   <img
                     src={img}
                     alt={`Showroom ${idx + 1}`}
-                    className="w-full h-48 sm:h-64 md:h-80 object-cover rounded-xl shadow-lg"
+                    className="w-full h-auto max-h-80 sm:max-h-96 md:max-h-[28rem] object-cover rounded-xl shadow-lg"
                   />
                 </div>
               ))}
             </Slider>
           </motion.div>
         </div>
-      </section>
+      </div>
 
       {/* Core Values */}
-      <section className="py-12 px-4 sm:px-6 md:px-12 bg-gray-50">
+      <div className="py-12 px-4 sm:px-6 md:px-12 bg-gray-50">
         <div className="max-w-7xl mx-auto text-center mb-10">
           <h2 className="text-2xl sm:text-3xl font-bold">Our Core Values</h2>
           <p className="text-gray-600 mt-2 text-sm sm:text-base">
@@ -172,10 +178,10 @@ const AboutUs = () => {
             </motion.div>
           ))}
         </div>
-      </section>
+      </div>
 
       {/* Achievements */}
-      <section className="py-12 px-4 sm:px-6 md:px-12 bg-white">
+      <div className="py-12 px-4 sm:px-6 md:px-12">
         <div className="max-w-7xl mx-auto text-center mb-10">
           <h2 className="text-2xl sm:text-3xl font-bold">Our Achievements</h2>
           <p className="text-gray-600 mt-2 text-sm sm:text-base">
@@ -201,10 +207,10 @@ const AboutUs = () => {
             </motion.div>
           ))}
         </div>
-      </section>
+      </div>
 
       {/* Call to Action */}
-      <section className="py-12 px-4 sm:px-6 md:px-12 bg-yellow-500 text-white text-center rounded-lg mx-4 sm:mx-6 md:mx-12 my-8">
+      <div className="py-12 px-4 sm:px-6 md:px-12 bg-yellow-500 text-white text-center rounded-lg mx-4 sm:mx-6 md:mx-12 my-8">
         <h2 className="text-2xl sm:text-3xl font-bold mb-3">Ready to Drive Your Dream?</h2>
         <p className="mb-4 text-sm sm:text-base">Visit our showroom or browse our inventory online. Excellence awaits!</p>
         <button 
@@ -213,8 +219,8 @@ const AboutUs = () => {
         >
           Schedule a Visit
         </button>
-      </section>
-    </main>
+      </div>
+    </section>
   )
 }
 

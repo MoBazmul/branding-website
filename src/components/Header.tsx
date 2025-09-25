@@ -10,7 +10,7 @@ const Header = () => {
 
   return (
     <header className="relative w-full min-h-16">
-      <div className="fixed w-full h-16 shadow-sm px-4 bg-white z-50 flex items-center justify-between lg:px-24 2xl:px-32 3xl:px-96">
+      <div className="fixed top-0 left-0 w-full h-16 shadow-sm px-4 bg-white z-50 flex items-center justify-between lg:px-24 2xl:px-32 3xl:px-96">
 
         <motion.div
           className="flex items-center gap-2 cursor-pointer"
