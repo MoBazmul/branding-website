@@ -1,0 +1,724 @@
+{
+  "cars": [
+    {
+      "id": 0,
+      "category": "Hatchback",
+      "make": "Toyota",
+      "model": "Vitz",
+      "fuelType": "Petrol",
+      "engineSize": "1.0L - 1.5L",
+      "transmission": ["Automatic", "CVT"],
+      "year": "2008 - 2018",
+      "seats": 5,
+      "description": "The Toyota Vitz is a compact hatchback known for its fuel efficiency and city-friendly design. A smart choice for first-time buyers and urban commuters.",
+      "price": "8000",
+      "imageLinks": [
+        "https://i.pinimg.com/1200x/38/9a/fd/389afd50574a7b12d57bfc1b2a1d2a6c.jpg",
+        "https://i.pinimg.com/736x/ed/3a/a4/ed3aa4736d6e309ef7d9ffedfd704e76.jpg",
+        "https://i.pinimg.com/1200x/d5/e9/c9/d5e9c98a04cd0f05543ca9d72379b466.jpg"
+      ]
+    },
+    {
+      "id": 1,
+      "category": "Sedan",
+      "make": "Honda",
+      "model": "Civic",
+      "fuelType": "Petrol",
+      "engineSize": "1.5L - 2.0L",
+      "transmission": ["Manual", "Automatic"],
+      "year": "2016 - 2021",
+      "seats": 5,
+      "description": "The Honda Civic is a stylish and sporty sedan that offers a blend of performance and comfort. Ideal for those seeking a dynamic driving experience.",
+      "price": "10000",
+      "imageLinks": [
+        "https://i.pinimg.com/1200x/56/8a/34/568a34bff58ba5ef4e50faa8d4e35528.jpg",
+        "https://i.pinimg.com/736x/81/49/de/8149deff87c25c70de6ee1fdc4e80cde.jpg",
+        "https://i.pinimg.com/1200x/41/39/f2/4139f288d64c1e60b20355d33a6d3f9d.jpg",
+        "https://i.pinimg.com/1200x/4b/94/dc/4b94dca189b27b26966b0e9e4e9650ef.jpg"
+      ]
+    },
+    {
+      "id": 2,
+      "category": "SUV",
+      "make": "Mazda",
+      "model": "CX-5",
+      "fuelType": "Diesel",
+      "engineSize": "2.0L - 2.5L",
+      "transmission": ["Automatic", "Manual"],
+      "year": "2017 - 2021",
+      "seats": 5,
+      "description": "The Mazda CX-5 is a compact SUV that combines stylish design with practical features. Perfect for families and outdoor enthusiasts.",
+      "price": "15000",
+      "imageLinks": [
+        "https://i.pinimg.com/1200x/6f/58/b6/6f58b6f271568911ec107772572ff0b9.jpg",
+        "https://i.pinimg.com/736x/e2/02/6a/e2026a9c0ec8a1597e369dc19bd54dbc.jpg",
+        "https://i.pinimg.com/736x/36/b4/7c/36b47cfe4e9b36eb0e953dc0ae1c34ed.jpg",
+        "https://i.pinimg.com/1200x/21/f8/3b/21f83b7a0e5034fe384a7fc25d514d1f.jpg",
+        "https://i.pinimg.com/736x/ef/8e/73/ef8e730ca7e1a1dea2be5405c7441be7.jpg"
+      ]
+    },
+    {
+      "id": 3,
+      "category": "Truck",
+      "make": "Ford",
+      "model": "F-150",
+      "fuelType": "Diesel",
+      "engineSize": "3.0L - 5.0L",
+      "transmission": ["Automatic"],
+      "year": "2015 - 2020",
+      "seats": 5,
+      "description": "The Ford F-150 is a full-size pickup truck known for its power and versatility. Ideal for heavy-duty tasks and off-road adventures.",
+      "price": "20000",
+      "imageLinks": [
+        "https://i.pinimg.com/736x/7e/1b/e6/7e1be62283ae10f7d27eaa01b657f3ad.jpg",
+        "https://i.pinimg.com/736x/3a/c0/43/3ac043cab8d1b73f313ba36f71fb1ef7.jpg",
+        "https://i.pinimg.com/1200x/00/95/92/009592ac115947a9ac7164d6f5275e4b.jpg",
+        "https://i.pinimg.com/1200x/00/ac/3d/00ac3dce059d4e5fed677ffdc1598d27.jpg"
+      ]
+    },
+    {
+      "id": 4,
+      "category": "Convertible",
+      "make": "BMW",
+      "model": "Z4",
+      "fuelType": "Petrol",
+      "engineSize": "2.0L - 3.0L",
+      "transmission": ["Automatic", "Manual"],
+      "year": "2019 - 2021",
+      "seats": 2,
+      "description": "The BMW Z4 is a sleek and sporty convertible that offers an exhilarating driving experience. Perfect for those who love the open road.",
+      "price": "30000",
+      "imageLinks": [
+        "https://i.pinimg.com/736x/db/4f/e7/db4fe7952520e7ff54c512a0bb7abe01.jpg",
+        "https://i.pinimg.com/1200x/28/d1/6f/28d16fc0a2210daf48e0672a422ba812.jpg",
+        "https://i.pinimg.com/736x/11/3f/1d/113f1d8d5e58a121542266debb253e6e.jpg",
+        "https://i.pinimg.com/736x/a6/d8/f4/a6d8f434e6f0a6d7b68f470d88208bb5.jpg"
+      ]
+    },
+    {
+      "id": 5,
+      "category": "Minivan",
+      "make": "Chrysler",
+      "model": "Pacifica",
+      "fuelType": "Hybrid",
+      "engineSize": "3.6L",
+      "transmission": ["Automatic"],
+      "year": "2017 - 2021",
+      "seats": 7,
+      "description": "The Chrysler Pacifica is a family-friendly minivan that offers spacious seating and advanced safety features. Ideal for large families and group travel.",
+      "price": "25000",
+      "imageLinks": [
+        "https://i.pinimg.com/1200x/f3/c9/f8/f3c9f87e3620a99295c7cf1dda8e4765.jpg",
+        "https://i.pinimg.com/736x/c6/fc/ec/c6fcec5260816bbfa17885edb9be0a00.jpg",
+        "https://i.pinimg.com/736x/c4/a7/56/c4a756d49a7fcd77d9ac98c6f0514162.jpg",
+        "https://i.pinimg.com/1200x/92/40/ba/9240ba7b33a15bbff8f392c5ab760a57.jpg"
+      ]
+    },
+    {
+      "id": 6,
+      "category": "Coupe",
+      "make": "Audi",
+      "model": "A5",
+      "fuelType": "Petrol",
+      "engineSize": "2.0L - 3.0L",
+      "transmission": ["Automatic", "Manual"],
+      "year": "2017 - 2021",
+      "seats": 4,
+      "description": "The Audi A5 is a stylish and luxurious coupe that combines performance with elegance. Perfect for those who appreciate fine craftsmanship and driving pleasure.",
+      "price": "28000",
+      "imageLinks": [
+        "https://i.pinimg.com/736x/57/fc/22/57fc22e2c905687f96236991a267a73c.jpg",
+        "https://i.pinimg.com/736x/db/14/d6/db14d6d65c2a0e6afae2ce68088b2c1d.jpg",
+        "https://i.pinimg.com/1200x/2c/5e/c2/2c5ec297a9329abe131d425dfc3844d7.jpg",
+        "https://i.pinimg.com/1200x/62/77/6d/62776dbce3d40eadc1e3c887a6ed10dd.jpg"
+      ]
+    },
+    {
+      "id": 7,
+      "category": "Electric",
+      "make": "Tesla",
+      "model": "Model 3",
+      "fuelType": "Electric",
+      "engineSize": "N/A",
+      "transmission": ["Automatic"],
+      "year": "2018 - 2021",
+      "seats": 5,
+      "description": "The Tesla Model 3 is a cutting-edge electric sedan that offers impressive range and performance. Ideal for eco-conscious drivers seeking innovation and style.",
+      "price": "35000",
+      "imageLinks": [
+        "https://i.pinimg.com/736x/a8/77/6b/a8776bb81375980bc8a274b4374def12.jpg",
+        "https://i.pinimg.com/736x/21/0d/11/210d1197c7511f6b8293d075fa0c1eba.jpg",
+        "https://i.pinimg.com/736x/8b/13/09/8b1309091355645df5e7847a49a16515.jpg",
+        "https://i.pinimg.com/736x/07/ff/3e/07ff3e143e442c0c4690b185b641d5a6.jpg"
+      ]
+    },
+    {
+      "id": 8,
+      "category": "Luxury",
+      "make": "Mercedes-Benz",
+      "model": "E-Class",
+      "fuelType": "Petrol",
+      "engineSize": "2.0L - 3.0L",
+      "transmission": ["Automatic"],
+      "year": "2017 - 2021",
+      "seats": 5,
+      "description": "The Mercedes-Benz E-Class is a premium luxury sedan that offers a blend of performance, comfort, and advanced technology. Perfect for those who demand the best in automotive excellence.",
+      "price": "40000",
+      "imageLinks": [
+        "https://i.pinimg.com/1200x/93/a3/99/93a39928b278a2842b604a0d64a4cf1b.jpg",
+        "https://i.pinimg.com/736x/ee/67/a1/ee67a1c9ee51aceb5623cdcdfd02ee9b.jpg",
+        "https://i.pinimg.com/1200x/d7/ee/69/d7ee69f4d7f048b4c92fc75ac4a578ad.jpg",
+        "https://i.pinimg.com/1200x/4b/19/d3/4b19d30938799d896b69abdee4e3e3c8.jpg"
+      ]
+    },
+    {
+      "id": 9,
+      "category": "Sports Car",
+      "make": "Chevrolet",
+      "model": "Camaro",
+      "fuelType": "Petrol",
+      "engineSize": "2.0L - 6.2L",
+      "transmission": ["Manual", "Automatic"],
+      "year": "2016 - 2021",
+      "seats": 4,
+      "description": "The Chevrolet Camaro is a classic American muscle car that delivers thrilling performance and aggressive styling. Perfect for those who crave excitement on the road.",
+      "price": "32000",
+      "imageLinks": [
+        "https://i.pinimg.com/736x/28/2b/ec/282bec6753e833f379c84ba52c1e250f.jpg",
+        "https://i.pinimg.com/736x/f3/1f/6b/f31f6b02292d356e271d804cb1f61289.jpg",
+        "https://i.pinimg.com/736x/f5/c3/2d/f5c32d1b7e3edab234ce7fd52668eecb.jpg",
+        "https://i.pinimg.com/736x/e8/c9/0e/e8c90e4f7b64219a71321af709c14d6f.jpg"
+      ]
+    },
+    {
+      "id": 10,
+      "category": "Crossover",
+      "make": "Nissan",
+      "model": "Rogue",
+      "fuelType": "Petrol",
+      "engineSize": "2.5L",
+      "transmission": ["Automatic"],
+      "year": "2017 - 2021",
+      "seats": 5,
+      "description": "The Nissan Rogue is a versatile crossover SUV that offers a comfortable ride and advanced safety features. Ideal for families and daily commuting.",
+      "price": "18000",
+      "imageLinks": [
+        "https://i.pinimg.com/736x/74/a0/87/74a08780221e2a0b214b014eae53c3c5.jpg",
+        "https://i.pinimg.com/736x/ec/84/f3/ec84f3e94319f8c9abfd6ba3d5357381.jpg",
+        "https://i.pinimg.com/1200x/5d/05/c2/5d05c29e6ebc330367fad52f31cb79f3.jpg",
+        "https://i.pinimg.com/736x/25/78/94/257894c53e128b1054d522bfa240dc2c.jpg"
+      ]
+    },
+    {
+      "id": 11,
+      "category": "Hatchback",
+      "make": "Volkswagen",
+      "model": "Golf",
+      "fuelType": "Petrol",
+      "engineSize": "1.0L - 2.0L",
+      "transmission": ["Manual", "Automatic"],
+      "year": "2015 - 2021",
+      "seats": 5,
+      "description": "The Volkswagen Golf is a compact hatchback that offers a perfect balance of performance, comfort, and practicality. A great choice for everyday driving.",
+      "price": "16000",
+      "imageLinks": [
+        "https://i.pinimg.com/736x/25/ea/ad/25eaadfb4a90e74a2e049223c278845d.jpg",
+        "https://i.pinimg.com/736x/3b/57/fb/3b57fb2c9fa5de23316891028a3fc5b4.jpg",
+        "https://i.pinimg.com/736x/98/2f/e4/982fe42f74cfd3f0bc206c4e44c8b03d.jpg",
+        "https://i.pinimg.com/736x/7a/55/23/7a55237d149f4f1b0b17ebbde37d982c.jpg"
+      ]
+    },
+    {
+      "id": 12,
+      "category": "Hatchback",
+      "make": "Hyundai",
+      "model": "i20",
+      "fuelType": "Petrol",
+      "engineSize": "1.2L - 1.4L",
+      "transmission": ["Manual", "Automatic"],
+      "year": "2014 - 2020",
+      "seats": 5,
+      "description": "The Hyundai i20 is a stylish and efficient hatchback that offers great value for money. Perfect for city driving and small families.",
+      "price": "11000",
+      "imageLinks": [
+        "https://i.pinimg.com/736x/d4/eb/a3/d4eba38af0be0353184f5b1e1bd400ba.jpg",
+        "https://i.pinimg.com/736x/60/35/cf/6035cf39fa1f35e1948a1f7e2fbcd9f2.jpg",
+        "https://i.pinimg.com/736x/b8/34/f8/b834f8aa936aca5631d0ec3c19f4322b.jpg",
+        "https://i.pinimg.com/736x/c9/a2/20/c9a2206a684b91f23c1e36b617d9291c.jpg"
+      ]
+    },
+    {
+      "id": 13,
+      "category": "Hatchback",
+      "make": "Ford",
+      "model": "Fiesta",
+      "fuelType": "Petrol",
+      "engineSize": "1.0L - 1.5L",
+      "transmission": ["Manual", "Automatic"],
+      "year": "2013 - 2019",
+      "seats": 5,
+      "description": "The Ford Fiesta is a fun-to-drive hatchback that offers a sporty design and excellent fuel efficiency. Ideal for urban driving and young professionals.",
+      "price": "15000",
+      "imageLinks": [
+        "https://i.pinimg.com/736x/1c/f9/9f/1cf99fc8ecc8b1bff424c611b9ade389.jpg",
+        "https://i.pinimg.com/736x/88/16/a4/8816a42b05fb7e1c52691007bdd11974.jpg",
+        "https://i.pinimg.com/736x/e3/22/09/e3220993b26889c6f20780d5a4415447.jpg"
+    ]
+    },
+    {
+      "id": 14,
+      "category": "Hatchback",
+      "make": "Kia",
+      "model": "Rio",
+      "fuelType": "Petrol",
+      "engineSize": "1.2L - 1.4L",
+      "transmission": ["Manual", "Automatic"],
+      "year": "2017 - 2020",
+      "seats": 5,
+      "description": "The Kia Rio is a compact hatchback that offers a comfortable ride and modern features. A practical choice for budget-conscious buyers.",
+      "price": "12000",
+      "imageLinks": [
+        "https://i.pinimg.com/1200x/01/2f/94/012f946a60a0b0b4e87cb58c03920561.jpg",
+        "https://i.pinimg.com/736x/94/e7/fd/94e7fd7a55f17a911b672bac9cdf862c.jpg",
+        "https://i.pinimg.com/736x/1f/f5/86/1ff58663f94d917ba3efb71df79589fe.jpg",
+        "https://i.pinimg.com/736x/0d/23/4a/0d234a0f071e482eed179cd46aafe455.jpg"
+      ]
+    },
+    {
+      "id": 15,
+      "category": "Hatchback",
+      "make": "Suzuki",
+      "model": "Swift",
+      "fuelType": "Petrol",
+      "engineSize": "1.2L - 1.4L",
+      "transmission": ["Manual", "Automatic"],
+      "year": "2017 - 2021",
+      "seats": 5,
+      "description": "The Suzuki Swift is a sporty and agile hatchback that offers a fun driving experience. Perfect for city dwellers and young drivers.",
+      "price":"12000",
+      "imageLinks": [
+        "https://i.pinimg.com/1200x/c3/92/b5/c392b5ac4a5af95e67df41a6c76ef888.jpg",
+        "https://i.pinimg.com/736x/ea/fc/ba/eafcbae3a206749cb8e168509a9e0963.jpg",
+        "https://i.pinimg.com/736x/dc/c9/7a/dcc97a6d2e7253ffc20211a7cdf0b992.jpg",
+        "https://i.pinimg.com/736x/0b/af/a6/0bafa64758173b9a9e96b15230f00749.jpg"
+      ]
+    },
+    {
+      "id": 16,
+      "category": "Hatchback",
+      "make": "Renault",
+      "model": "Clio",
+      "fuelType": "Petrol",
+      "engineSize": "1.0L - 1.5L",
+      "transmission": ["Manual", "Automatic"],
+      "year": "2016 - 2021",
+      "seats": 5,
+      "description": "The Renault Clio is a stylish and efficient hatchback that offers a comfortable ride and advanced technology. A great choice for urban driving.",
+      "price":"13000",
+      "imageLinks": [
+        "https://i.pinimg.com/736x/24/b4/ac/24b4acdd5ea4eb116eafa2e3178f8ee7.jpg",
+        "https://i.pinimg.com/736x/42/60/ba/4260ba7787124d659ef93c37be1eeac2.jpg",
+        "https://i.pinimg.com/736x/8d/26/d6/8d26d6e7fddde0195c12dbbfa99c6c0a.jpg",
+        "https://i.pinimg.com/1200x/f9/ab/b6/f9abb6ac2d385184ff46544f4a03db9a.jpg"
+      ]
+    },
+    {
+      "id": 17,
+      "category": "Hatchback",
+      "make": "Peugeot",
+      "model": "208",
+      "fuelType": "Petrol",
+      "engineSize": "1.2L - 1.5L",
+      "transmission": ["Manual", "Automatic"],
+      "year": "2019 - 2021",
+      "seats": 5,
+      "description": "The Peugeot 208 is a modern and stylish hatchback that offers a comfortable ride and advanced features. Ideal for city driving and small families.",
+      "price":"14000",
+      "imageLinks": [
+        "https://i.pinimg.com/736x/6c/e3/d1/6ce3d1283e9fc3d661048b91091c3c11.jpg",
+        "https://i.pinimg.com/736x/49/6c/6e/496c6ec7192836ceb14fed4a07cca91b.jpg",
+        "https://i.pinimg.com/736x/eb/fe/f7/ebfef7d3f299fd9cfe3163da2975dd94.jpg",
+        "https://i.pinimg.com/736x/14/01/fd/1401fdac926ba8c9163ff3a94ed8829c.jpg"
+      ]
+    },
+    {
+      "id": 18,
+      "category": "Hatchback",
+      "make": "Citroën",
+      "model": "C3",
+      "fuelType": "Petrol",
+      "engineSize": "1.2L - 1.5L",
+      "transmission": ["Manual", "Automatic"],
+      "year": "2016 - 2021",
+      "seats": 5,
+      "description": "The Citroën C3 is a quirky and comfortable hatchback that offers a smooth ride and unique design. A great choice for those seeking individuality in their vehicle.",
+      "price":"11000",
+      "imageLinks": [
+        "https://i.pinimg.com/736x/06/75/60/067560036a5dfcf3db49dd02febc3995.jpg",
+        "https://i.pinimg.com/736x/01/82/eb/0182eb93333e801f8217ffd72671ccdf.jpg",
+        "https://i.pinimg.com/1200x/17/6f/40/176f403e7d7748490d879b9e64eb224b.jpg",
+        "https://i.pinimg.com/1200x/e7/42/d0/e742d00960a5c535a042ac5f70f1d18e.jpg"
+      ]
+    },
+    {
+      "id": 19,
+      "category": "Hatchback",
+      "make": "Seat",
+      "model": "Ibiza",
+      "fuelType": "Petrol",
+      "engineSize": "1.0L - 1.5L",
+      "transmission": ["Manual", "Automatic"],
+      "year": "2017 - 2021",
+      "seats": 5,
+      "description": "The Seat Ibiza is a sporty and practical hatchback that offers a fun driving experience and modern features. Perfect for young drivers and city dwellers.",
+      "price":"13000",
+      "imageLinks": [
+        "https://i.pinimg.com/736x/e7/63/9b/e7639bc9b189939200b2f5090fbf7bbe.jpg",
+        "https://i.pinimg.com/736x/35/be/6f/35be6f79411cebacd8cbc046e98ee5e7.jpg",
+        "https://i.pinimg.com/1200x/da/de/cf/dadecf89663f9d30b1d4dd25a3784f3f.jpg",
+        "https://i.pinimg.com/736x/0f/2b/cf/0f2bcf3863972d98df4be0f1c50b9bb9.jpg"
+      ]
+    },
+    {
+      "id": 20,
+      "category": "Hatchback",
+      "make": "Opel",
+      "model": "Corsa",
+      "fuelType": "Petrol",
+      "engineSize": "1.2L - 1.4L",
+      "transmission": ["Manual", "Automatic"],
+      "year": "2019 - 2021",
+      "seats": 5,
+      "description": "The Opel Corsa is a compact and efficient hatchback that offers a comfortable ride and advanced technology. A practical choice for everyday driving.",
+      "price": "12500",
+      "imageLinks": [
+        "https://i.pinimg.com/736x/8e/a0/c9/8ea0c92ca39cfb8e7a406e4317cfa240.jpg",
+        "https://i.pinimg.com/736x/00/95/36/0095362fa182baa54443f097fdb787da.jpg",
+        "https://i.pinimg.com/736x/f4/cb/02/f4cb02e950e92dbf515e8bb5d1b1353e.jpg",
+        "https://i.pinimg.com/736x/af/04/9d/af049d4d921097bdfa8082e54268588d.jpg"
+      ]
+    },
+    {
+      "id": 21,
+      "category": "Hatchback",
+      "make": "Fiat",
+      "model": "Punto",
+      "fuelType": "Petrol",
+      "engineSize": "1.2L - 1.4L",
+      "transmission": ["Manual", "Automatic"],
+      "year": "2012 - 2018",
+      "seats": 5,
+      "description": "The Fiat Punto is a stylish and compact hatchback that offers a fun driving experience and Italian flair. Ideal for city driving and small families.",
+      "price": "9000",
+      "imageLinks": [
+        "https://i.pinimg.com/736x/39/18/7a/39187aca98d66f689328711971e6e808.jpg",
+        "https://i.pinimg.com/736x/8d/f4/f7/8df4f764b54e54866e8d6860ffcd3e1e.jpg",
+        "https://i.pinimg.com/736x/ac/9b/72/ac9b726f709e77c6bea40fc7f4e57f3e.jpg",
+        "https://i.pinimg.com/736x/25/13/49/251349cc5f30a4b317b17b3da33c9ac8.jpg"
+      ]
+    },
+    {
+      "id": 22,
+      "category": "Hatchback",
+      "make": "Mitsubishi",
+      "model": "Mirage",
+      "fuelType": "Petrol",
+      "engineSize": "1.2L",
+      "transmission": ["Manual", "Automatic"],
+      "year": "2014 - 2020",
+      "seats": 5,
+      "description": "The Mitsubishi Mirage is an affordable and fuel-efficient hatchback that offers a practical solution for budget-conscious buyers. Perfect for city driving and daily commuting.",
+      "price": "8000",
+      "imageLinks": [
+        "https://i.pinimg.com/736x/fb/5a/19/fb5a1955ca63f46a192503aa5538a430.jpg",
+        "https://i.pinimg.com/736x/6f/60/8a/6f608a37527f44a99c9b813ed7d5c741.jpg",
+        "https://i.pinimg.com/736x/1b/e4/14/1be4140636f00c0c0de744fd14e3a990.jpg",
+        "https://i.pinimg.com/736x/62/5e/ca/625eca837ed91f9a0daab9e2a276318e.jpg"
+      ]
+    },
+    {
+      "id": 23,
+      "category": "Hatchback",
+      "make": "Tata",
+      "model": "Tiago",
+      "fuelType": "Petrol",
+      "engineSize": "1.2L",
+      "transmission": ["Manual", "Automatic"],
+      "year": "2016 - 2021",
+      "seats": 5,
+      "description": "The Tata Tiago is a budget-friendly hatchback that offers a comfortable ride and modern features. A great choice for first-time buyers and urban commuters.",
+      "price": "7000",
+      "imageLinks": [
+        "https://i.pinimg.com/736x/5f/5d/61/5f5d61973149c81d7d3f890f8ec0b5e8.jpg",
+        "https://i.pinimg.com/736x/0a/5b/8e/0a5b8e85b3e8a072f386130aff4ccc14.jpg",
+        "https://i.pinimg.com/736x/72/cd/8b/72cd8b38f61274f09abf073956a4a61d.jpg",
+        "https://i.pinimg.com/736x/32/23/40/3223400386751a926e32f9e228fb3563.jpg"
+      ]
+    },
+    {
+      "id": 24,
+      "category": "Hatchback",
+      "make": "Datsun",
+      "model": "GO",
+      "fuelType": "Petrol",
+      "engineSize": "1.2L",
+      "transmission": ["Manual", "Automatic"],
+      "year": "2014 - 2020",
+      "seats": 5,
+      "description": "The Datsun GO is an affordable and practical hatchback that offers a comfortable ride and essential features. Ideal for budget-conscious buyers and city driving.",
+      "price": "6000",
+      "imageLinks": [
+        "https://i.pinimg.com/736x/f5/88/26/f58826cfaa40727b2ed35d133e6a9177.jpg",
+        "https://i.pinimg.com/736x/30/cc/3a/30cc3acbfbf6b4fc9edbd718aeae7fa6.jpg",
+        "https://i.pinimg.com/736x/0a/6d/c5/0a6dc56acbed4dba77f1326e467ade25.jpg",
+        "https://i.pinimg.com/736x/27/4c/0f/274c0f41e42466c5007092c531547696.jpg"
+      ]
+    },
+    {
+      "id": 25,
+      "category": "Hatchback",
+      "make": "Maruti Suzuki",
+      "model": "Alto",
+      "fuelType": "Petrol",
+      "engineSize": "0.8L - 1.0L",
+      "transmission": ["Manual", "Automatic"],
+      "year": "2014 - 2020",
+      "seats": 5,
+      "description": "The Maruti Suzuki Alto is a compact and budget-friendly hatchback that offers excellent fuel efficiency and practicality. A popular choice for city driving and first-time buyers.",
+      "price": "5000",
+      "imageLinks": [
+        "https://i.pinimg.com/736x/d5/57/2c/d5572c203e96c65ee85bf8cdd701b589.jpg",
+        "https://i.pinimg.com/736x/d9/d4/1b/d9d41b31587d728e9a358003a8969cae.jpg",
+        "https://i.pinimg.com/736x/a7/c1/e5/a7c1e50f1f4a8fc235dad98a2bd1cdf2.jpg",
+        "https://i.pinimg.com/736x/b7/f5/f4/b7f5f40ec3946619369ce026265d4d77.jpg"
+      ]
+    },
+    {
+      "id": 26,
+      "category": "Hatchback",
+      "make": "Chevrolet",
+      "model": "Spark",
+      "fuelType": "Petrol",
+      "engineSize": "1.0L",
+      "transmission": ["Manual", "Automatic"],
+      "year": "2013 - 2019",
+      "seats": 5,
+      "description": "The Chevrolet Spark is a compact and affordable hatchback that offers a fun driving experience and modern features. Perfect for city driving and young professionals.",
+      "price": "4000",
+      "imageLinks": [
+        "https://i.pinimg.com/1200x/f1/d1/8e/f1d18ed2674fb38f37e46a6ff387f38a.jpg",
+        "https://i.pinimg.com/1200x/09/52/1f/09521f7e916e537d26ee3a52b31226a2.jpg",
+        "https://i.pinimg.com/736x/ba/11/55/ba1155e079707ad315bfeacf4e79ed5b.jpg",
+        "https://i.pinimg.com/1200x/b3/08/e7/b308e7294b9706c5d23040168d6c333b.jpg"
+      ]
+    },
+    {
+      "id": 27,
+      "category": "Hatchback",
+      "make": "Honda",
+      "model": "Jazz",
+      "fuelType": "Petrol",
+      "engineSize": "1.3L - 1.5L",
+      "transmission": ["Manual", "Automatic"],
+      "year": "2015 - 2020",
+      "seats": 5,
+      "description": "The Honda Jazz is a versatile and spacious hatchback that offers a comfortable ride and advanced features. A great choice for families and urban commuters.",
+      "price": "11000",
+      "imageLinks": [
+        "https://i.pinimg.com/1200x/4f/2c/1b/4f2c1bad9db5dde3d3a35622fb50698b.jpg",
+        "https://i.pinimg.com/736x/0c/7e/ae/0c7eaeff30a5ae8309e39c8cce0774ce.jpg",
+        "https://i.pinimg.com/736x/3d/e6/1a/3de61abf5c97595dd97f6381ae90d58e.jpg",
+        "https://i.pinimg.com/1200x/22/f7/21/22f72151266f53893a8e2bf462106079.jpg"
+      ]
+    },
+    {
+      "id": 28,
+      "category": "SUV",
+      "make": "Toyota",
+      "model": "Land Cruiser",
+      "year": 2022,
+      "fuelType": "Diesel",
+      "engineSize": "4.5L V8",
+      "transmission": "Automatic",
+      "seats": 7,
+      "description": "The Toyota Land Cruiser is a premium SUV renowned for its robust build, advanced off-road capabilities, and luxurious interior. It is equally suited for city driving and challenging terrains, making it a favorite among adventure seekers and families who value comfort and reliability.",
+      "price": "85000",
+      "imageLinks": [
+        "https://i.pinimg.com/736x/aa/99/7c/aa997c3f665f4df85d036f272f3ced74.jpg",
+        "https://i.pinimg.com/736x/93/cf/80/93cf80dd493d94407191d1c2ffc506b0.jpg",
+        "https://i.pinimg.com/736x/1a/e5/78/1ae578ef4f1a2ba1acd4540e0236b298.jpg",
+        "https://i.pinimg.com/1200x/b1/b6/10/b1b610fd169120d4575a79f080f47c8f.jpg"
+      ]
+    },
+    {
+      "id": 29,
+      "category": "SUV",
+      "make": "Toyota",
+      "model": "Prado",
+      "year": 2021,
+      "fuelType": "Diesel",
+      "engineSize": "2.8L",
+      "transmission": "Automatic",
+      "seats": 7,
+      "description": "The Toyota Prado is a comfortable and stylish SUV designed for family trips and long journeys. It offers a spacious interior, advanced safety features, and a smooth ride, making it an excellent choice for those who prioritize both luxury and practicality in their vehicle.",
+      "price": "60000",
+      "imageLinks": [
+        "https://i.pinimg.com/736x/ae/a8/b3/aea8b359ed1275f22fc74c046c9fd9de.jpg",
+        "https://i.pinimg.com/1200x/74/2f/3c/742f3c6918131fce61f5cfc1c0ed658d.jpg",
+        "https://i.pinimg.com/736x/49/3f/21/493f219075c80df83821fe4ea703fbe4.jpg",
+        "https://i.pinimg.com/736x/e3/9e/9e/e39e9e1bdd4e07ea0f9006af12e12e24.jpg"
+      ]
+    },
+    {
+      "id": 30,
+      "category": "SUV",
+      "make": "Toyota",
+      "model": "Harrier",
+      "year": 2020,
+      "fuelType": "Petrol",
+      "engineSize": "2.0L",
+      "transmission": "Automatic",
+      "seats": 5,
+      "description": "The Toyota Harrier is a sleek crossover SUV that blends luxury with impressive performance. Its elegant design, refined interior, and advanced technology make it a top pick for drivers seeking sophistication and comfort in a versatile package.",
+      "price": "40000",
+      "imageLinks": [
+        "https://i.pinimg.com/736x/f1/5f/0e/f15f0eb210fbbc0c74edc472ecd32e0f.jpg",
+        "https://i.pinimg.com/736x/95/40/76/954076818f71832cb6e7d3c453a429c1.jpg",
+        "https://i.pinimg.com/736x/a5/a3/37/a5a337cf210be2046c5b27244ff64e43.jpg",
+        "https://i.pinimg.com/736x/e2/cf/10/e2cf10b453ee5992c182626a5743754d.jpg"
+      ]
+    },
+    {
+      "id": 31,
+      "category": "Luxury",
+      "make": "Ferrari",
+      "model": "488 Spider",
+      "year": 2021,
+      "fuelType": "Petrol",
+      "engineSize": "3.9L V8",
+      "transmission": "Automatic",
+      "seats": 2,
+      "description": "The Ferrari 488 Spider is a high-performance supercar that combines breathtaking speed with stunning Italian design. Its powerful V8 engine, open-top driving experience, and cutting-edge technology deliver an exhilarating ride for those who demand the very best in automotive engineering.",
+      "price": "250000",
+      "imageLinks": [
+        "https://i.pinimg.com/736x/02/09/59/020959eb3e3271d97c83b5ed78c595c0.jpg",
+        "https://i.pinimg.com/736x/32/25/d5/3225d5bbf3c83dd940d06ae4fa04735b.jpg",
+        "https://i.pinimg.com/736x/91/e0/d3/91e0d3a334c80210fd4ef5132d1595b5.jpg",
+        "https://i.pinimg.com/736x/b5/84/96/b58496a56995363f14d560301649d6e5.jpg"
+      ]
+    },
+    {
+      "id": 32,
+      "category": "Luxury",
+      "make": "Mercedes-Benz",
+      "model": "G63 AMG",
+      "year": 2022,
+      "fuelType": "Petrol",
+      "engineSize": "4.0L V8",
+      "transmission": "Automatic",
+      "seats": 5,
+      "description": "The Mercedes-Benz G63 AMG is a luxury SUV that stands out for its unmatched performance, iconic design, and superior off-road capability. It offers a blend of power, comfort, and advanced features, making it a symbol of prestige and adventure.",
+      "price": "200000",
+      "imageLinks": [
+        "https://i.pinimg.com/736x/23/0b/a2/230ba2711e323cbaf54ffba82ab095a3.jpg",
+        "https://i.pinimg.com/736x/7a/a4/8c/7aa48ce9e59e4b06e6d6786dbf124e0e.jpg",
+        "https://i.pinimg.com/736x/78/e2/62/78e2622da21a10808d023a016ca6b3c1.jpg",
+        "https://i.pinimg.com/736x/07/1d/8e/071d8e51b51abb01719742a09c514ad6.jpg"
+      ]
+    },
+    {
+      "id": 33,
+      "category": "SUV",
+      "make": "Toyota",
+      "model": "V8 Land Cruiser",
+      "year": 2019,
+      "fuelType": "Diesel",
+      "engineSize": "4.5L V8",
+      "transmission": "Automatic",
+      "seats": 7,
+      "description": "The Toyota V8 Land Cruiser is a powerful SUV engineered for both rugged terrain and luxury driving. Its robust V8 engine, spacious interior, and advanced safety systems make it ideal for those who need reliability and comfort in extreme conditions.",
+      "price": "75000",
+      "imageLinks": [
+        "https://i.pinimg.com/736x/da/c5/9c/dac59cba1d523a2a3d28c56950bb51c9.jpg",
+        "https://i.pinimg.com/736x/d6/a8/9b/d6a89b5a5b1751052222eb907eda53f2.jpg",
+        "https://i.pinimg.com/736x/ea/05/35/ea05358df07e2d8e0c7842c4b06fd481.jpg"
+      ]
+    },
+    {
+      "id": 34,
+      "category": "SUV",
+      "make": "Nissan",
+      "model": "Patrol",
+      "year": 2021,
+      "fuelType": "Diesel",
+      "engineSize": "5.6L V8",
+      "transmission": "Automatic",
+      "seats": 7,
+      "description": "The Nissan Patrol is a robust SUV designed for both off-road adventures and luxury driving. With its powerful V8 engine, spacious seating, and advanced technology, it is perfect for families and explorers who require versatility and comfort.",
+      "price": "65000",
+      "imageLinks": [
+        "https://i.pinimg.com/736x/ee/ac/a3/eeaca3b13cda449b4a962dedab70b2f6.jpg",
+        "https://i.pinimg.com/736x/20/16/d9/2016d9af850e89760a76ae64c3197735.jpg",
+        "https://i.pinimg.com/736x/50/8c/4d/508c4d11fc42948906e70408542229fa.jpg",
+        "https://i.pinimg.com/736x/3b/0e/d1/3b0ed15d0dd7f5342b655996995e58b2.jpg"
+      ]
+    },
+    {
+      "id": 35,
+      "category": "Luxury",
+      "make": "BMW",
+      "model": "X5",
+      "year": 2020,
+      "fuelType": "Petrol",
+      "engineSize": "3.0L",
+      "transmission": "Automatic",
+      "seats": 5,
+      "description": "The BMW X5 is a premium SUV that blends comfort, style, and power. Its refined interior, dynamic performance, and innovative features make it a top choice for those who appreciate luxury and driving pleasure in a versatile vehicle.",
+      "price": "70000",
+      "imageLinks": [
+        "https://i.pinimg.com/736x/9e/6f/2a/9e6f2a848e5dfbefe535ca23102d5e5a.jpg",
+        "https://i.pinimg.com/736x/ca/ea/ee/caeaeef13f41887039fae369a0fbcc61.jpg",
+        "https://i.pinimg.com/736x/64/81/e6/6481e67d5f4d92d914c238ea0c679876.jpg",
+        "https://i.pinimg.com/736x/47/55/22/4755228f09b287295261a1df3fbf28fc.jpg"
+      ]
+    },
+    {
+      "id": 36,
+      "category": "Luxury",
+      "make": "Audi",
+      "model": "Q7",
+      "year": 2021,
+      "fuelType": "Diesel",
+      "engineSize": "3.0L",
+      "transmission": "Automatic",
+      "seats": 7,
+      "description": "The Audi Q7 is a luxurious SUV that offers premium comfort, advanced technology, and spacious seating for families. Its elegant design and smooth performance make it an excellent option for those seeking sophistication and practicality.",
+      "price": "75000",
+      "imageLinks": [
+        "https://i.pinimg.com/736x/3e/d2/7a/3ed27aec8aa221130ece141efc784c0c.jpg",
+        "https://i.pinimg.com/736x/74/52/11/745211e0924b75fec066f2f62d64f06e.jpg",
+        "https://i.pinimg.com/736x/ea/1b/29/ea1b29535c5c72082991c3c717b511d3.jpg",
+        "https://i.pinimg.com/736x/04/82/b5/0482b5f2dd1232a027760e858d328227.jpg"
+      ]
+    },
+    {
+      "id": 37,
+      "category": "Luxury",
+      "make": "Range Rover",
+      "model": "Sport",
+      "year": 2022,
+      "fuelType": "Diesel",
+      "engineSize": "3.0L",
+      "transmission": "Automatic",
+      "seats": 5,
+      "description": "The Range Rover Sport is a sporty luxury SUV crafted for both city and off-road driving. It features a powerful engine, refined interior, and state-of-the-art technology, providing a perfect balance of performance, comfort, and versatility.",
+      "price": "80000",
+      "imageLinks": [
+        "https://i.pinimg.com/736x/29/73/1c/29731ca2ee8beeb14a3e8217247b769f.jpg",
+        "https://i.pinimg.com/736x/15/30/33/1530333269a976605a31d044b2a99621.jpg",
+        "https://i.pinimg.com/736x/74/d6/fa/74d6fac8948132d1bd62438e33ac3110.jpg",
+        "https://i.pinimg.com/736x/b6/fb/fd/b6fbfd2bc31d4ac5a4dc5ebe7ad0f150.jpg"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "heroImages": [
+    {
+      "id": 0,
+      "url": "https://i.pinimg.com/736x/e8/f5/4a/e8f54a0370f40eb8d65094adc5778167.jpg",
+      "alt": "Toyota Fortuner"
+    },
+    {
+      "id": 1,
+      "url": "https://i.pinimg.com/736x/65/23/d0/6523d01e04a3db93eb7d669df0462f11.jpg",
+      "alt": "Range Rover"
+    },
+    {
+      "id": 2,
+      "url": "https://i.pinimg.com/736x/08/f7/58/08f75839e7ea47c78b30d7139c03b51e.jpg",
+      "alt": "BMW X6"
+    },
+    {
+      "id": 3,
+      "url": "https://i.pinimg.com/736x/43/3b/15/433b1516f65aef8d97b7045b55c85a1e.jpg",
+      "alt": "X5-M"
+    },
+    {
+      "id": 4,
+      "url": "https://i.pinimg.com/736x/d4/bc/05/d4bc0510e9f788cd227022f1997e773b.jpg",
+      "alt": "V8 Supercharged"
+    },
+    {
+      "id": 5,
+      "url": "https://i.pinimg.com/736x/11/3b/ef/113bef930732e1b7bd1d110984427878.jpg",
+      "alt": "Toyota Harrier"
+    }
+  ]
+}
