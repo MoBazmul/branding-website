@@ -1,5 +1,6 @@
 // Footer.tsx
 import { FaFacebookF, FaTwitter, FaInstagram } from "react-icons/fa";
+import { Link } from "react-router";
 
 const Footer = () => {
   return (
@@ -15,10 +16,10 @@ const Footer = () => {
         <div>
           <h3 className="text-xl font-semibold text-yellow-500 mb-4">Quick Links</h3>
           <ul className="space-y-2">
-            <li><a href="/" className="hover:text-yellow-500 transition">Home</a></li>
-            <li><a href="/inventory" className="hover:text-yellow-500 transition">Inventory</a></li>
-            <li><a href="/aboutus" className="hover:text-yellow-500 transition">About Us</a></li>
-            <li><a href="/contact" className="hover:text-yellow-500 transition">Contact</a></li>
+            <li><Link to="/" className="hover:text-yellow-500 transition">Home</Link></li>
+            <li><Link to="/inventory" className="hover:text-yellow-500 transition">Inventory</Link></li>
+            <li><Link to="/aboutus" className="hover:text-yellow-500 transition">About Us</Link></li>
+            <li><Link to="/contact" className="hover:text-yellow-500 transition">Contact</Link></li>
           </ul>
         </div>
 
