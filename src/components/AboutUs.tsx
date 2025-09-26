@@ -4,6 +4,7 @@ import Cars from "../data/data.json"
 import CountUp from "react-countup"
 import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
+import { useNavigate } from "react-router"
 
 // Sample 6 random images from data.json
 const indexes: number[] = []
@@ -14,6 +15,7 @@ while (indexes.length < 6) {
 const showroomImages = indexes.map(i => Cars.cars[i].imageLinks[0])
 
 const AboutUs = () => {
+  const navigate = useNavigate()
   const values = [
     {
       title: "Integrity",
@@ -215,7 +217,7 @@ const AboutUs = () => {
         <p className="mb-4 text-sm sm:text-base">Visit our showroom or browse our inventory online. Excellence awaits!</p>
         <button 
           className="px-6 py-2 sm:px-8 sm:py-3 bg-white text-yellow-600 font-semibold rounded-full shadow-md hover:shadow-xl transition-transform duration-300 cursor-pointer"
-          onClick={() => window.location.href = "/contact"}
+          onClick={() => navigate("/contact")}
         >
           Schedule a Visit
         </button>

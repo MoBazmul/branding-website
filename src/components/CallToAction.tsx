@@ -1,6 +1,8 @@
 import { motion } from "framer-motion"
+import { useNavigate } from "react-router";
 
 export default function CallToAction() {
+  const navigate = useNavigate();
   return (
     <section
       className="relative h-[80vh] flex items-center justify-center bg-fixed bg-center bg-cover"
@@ -21,8 +23,7 @@ export default function CallToAction() {
         </motion.h2>
 
         <motion.p
-          className="text-lg mb-16 max-w-2xl mx-auto"
-          initial={{ opacity: 0 }}
+          className="text-lg mb-16 max-w-2xl mx-auto"          initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{ delay: 0.3, duration: 0.6 }}
         >
@@ -37,7 +38,7 @@ export default function CallToAction() {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.5, duration: 0.6 }}
-          onClick={() => window.location.href = "/contact"}
+          onClick={() => navigate("/contact")}
         >
           Schedule a Visit
         </motion.button>
