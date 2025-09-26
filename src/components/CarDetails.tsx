@@ -1,4 +1,4 @@
-import { Navigate, useLocation, useNavigate } from "react-router";
+import { useLocation, useNavigate } from "react-router";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -8,6 +8,7 @@ import FooterComponent from "./FooterComponent";
 const CarDetails = () => {
   const location = useLocation();
   const { car } = location.state || {};
+  const navigate = useNavigate()
 
   if (!car) return <p className="p-6 text-center">No car data found.</p>;
 
@@ -22,7 +23,6 @@ const CarDetails = () => {
     arrows: false,
     fade: true,
   };
-  const navigate = useNavigate()
 
   return (
     <div className="min-h-screen bg-gray-50">
