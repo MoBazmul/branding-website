@@ -1,4 +1,4 @@
-import { useLocation } from "react-router";
+import { Navigate, useLocation, useNavigate } from "react-router";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -22,6 +22,7 @@ const CarDetails = () => {
     arrows: false,
     fade: true,
   };
+  const navigate = useNavigate()
 
   return (
     <div className="min-h-screen bg-gray-50">
@@ -89,7 +90,10 @@ const CarDetails = () => {
         <h3 className="text-3xl font-bold text-gray-900 mb-4">
           Interested in this {car.make} {car.model}?
         </h3>
-        <button className="px-8 py-3 bg-black text-yellow-500 font-semibold rounded-lg shadow hover:bg-gray-800 transition">
+        <button 
+          className="px-8 py-3 bg-black text-yellow-500 font-semibold rounded-lg shadow hover:bg-gray-800 transition"
+          onClick={() => navigate("/contact")}
+        >
           Contact Us Today
         </button>
       </section>
